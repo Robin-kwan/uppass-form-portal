@@ -6,7 +6,7 @@ https://uppass-form-portal-e79p.vercel.app/
 - `npm run dev`
 
 ## 🧩 Schema Updates
-Please refer to app/assets/updated_schema.json
+Please refer to `app/assets/updated_schema.json`
 - Moved days inside of items for consistency
 - Moved required outside of rule as a standalone key that accepts a boolean
 - Relocated other validation rules from props to rules

@@ -1,42 +1,42 @@
-#Live on
+🟢 Live On
 https://uppass-form-portal-e79p.vercel.app/
 
-#To run the project locally
-- `npm install`
-- `npm run dev`
+💻 To Run the Project Locally
+npm install
+npm run dev
 
-#Schema updates
-Please refer to `app/assets/updated_schema.json`
-- Moved 'days' inside of 'items'
-- Moved 'required' outside of 'rule' as a key itself and accepts a boolean
-- Moved other rules from 'props' to 'rules'
-- Added hint for text and number inputs
-- Added endpoint URL for submit function
-- Added min and negative number support for number input
+🧩 Schema Updates
+Please refer to app/assets/updated_schema.json
+- Moved days inside of items for consistency
+- Moved required outside of rule as a standalone key that accepts a boolean
+- Relocated other validation rules from props to rules
+- Added hint support for text and number inputs
+- Added endpoint URL for the submit function
+- Added min and negative number support for number inputs
 - Added Select to supported components
+  
 
-#Additional features
-- Using states to store data between pages
-- Allow saving schemas using localStorage
-- Homepage
+⚙️ Additional Features
+- Utilizes state management to persist data between pages
+- Supports saving and loading schemas via localStorage
+- Added a homepage introducing and summarizing the app’s features
 
-#Thought Process.
-1. Planned and enhanced Schema.json structure. For more info, please refer to 'Schema updates' above
-2. Manually set up the project to avoid dependency conflicts later
-3. Built the key features
-4. Added more features ie. new supported component, and more props to the components
-5. Tested all features are working fine
-6. Improved the design. Created the homepage and introduced features on the page
-7. Cleaned code, refactored, and fixed Typescript errors 
-8. Test all features again
-9. Implemented unit testing
+🧠 Thought Process
+1. Planned and enhanced the Schema.json structure (see Schema Updates above)
+2. Manually set up the project to prevent dependency conflicts in the future
+3. Built all core functional features
+4. Added additional features such as new supported components and props
+5. Tested all features to ensure stability
+6. Improved the design and created a homepage to present key functionalities
+7. Cleaned code, refactored components, and resolved TypeScript errors
+8. Re-tested all features to confirm everything works as expected
+9. Implemented unit testing for better reliability
 
-#Timespent
-- Planning 1hr
-- Coding functional 8hr
-- Coding design 3hr
-- Deploy 30m
-- Document 30m
-- `Total 13hr`
-
+⏱️ Time Spent
+- Planning: 1 hr
+- Functional Coding: 8 hr
+- Design & Styling: 3 hr
+- Deployment: 30 min
+- Documentation: 30 min
+Total: ≈ 13 hours
 

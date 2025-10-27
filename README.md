@@ -2,8 +2,8 @@
 https://uppass-form-portal-e79p.vercel.app/
 
 #To run the project locally
-`npm install`
-`npm run dev`
+- `npm install`
+- `npm run dev`
 
 #Schema updates
 Please refer to `app/assets/updated_schema.json`

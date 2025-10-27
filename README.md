@@ -1,11 +1,11 @@
-🟢 Live On
+## 🟢 Live On
 https://uppass-form-portal-e79p.vercel.app/
 
-💻 To Run the Project Locally
-`npm install`
-`npm run dev`
+## 💻 To Run the Project Locally
+- `npm install`
+- `npm run dev`
 
-🧩 Schema Updates
+## 🧩 Schema Updates
 Please refer to app/assets/updated_schema.json
 - Moved days inside of items for consistency
 - Moved required outside of rule as a standalone key that accepts a boolean
@@ -16,12 +16,12 @@ Please refer to app/assets/updated_schema.json
 - Added Select to supported components
   
 
-⚙️ Additional Features
+## ⚙️ Additional Features
 - Utilizes state management to persist data between pages
 - Supports saving and loading schemas via localStorage
 - Added a homepage introducing and summarizing the app’s features
 
-🧠 Thought Process
+## 🧠 Thought Process
 1. Planned and enhanced the Schema.json structure (see Schema Updates above)
 2. Manually set up the project to prevent dependency conflicts in the future
 3. Built all core functional features
@@ -32,11 +32,11 @@ Please refer to app/assets/updated_schema.json
 8. Re-tested all features to confirm everything works as expected
 9. Implemented unit testing for better reliability
 
-⏱️ Time Spent
+## ⏱️ Time Spent
 - Planning: 1 hr
 - Functional Coding: 8 hr
 - Design & Styling: 3 hr
 - Deployment: 30 min
 - Documentation: 30 min
-Total: ≈ 13 hours
+- ``Total: ≈ 13 hours``
 

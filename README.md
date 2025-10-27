@@ -20,6 +20,7 @@ Please refer to app/assets/updated_schema.json
 - Utilizes state management to persist data between pages
 - Supports saving and loading schemas via localStorage
 - Added a homepage introducing and summarizing the app’s features
+- Supports additional component & props in schema
 
 ## 🧠 Thought Process
 1. Planned and enhanced the Schema.json structure (see Schema Updates above)

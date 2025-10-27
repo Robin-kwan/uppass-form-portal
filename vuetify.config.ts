@@ -3,23 +3,23 @@ import { defineVuetifyConfiguration } from "vuetify-nuxt-module/custom-configura
 export default defineVuetifyConfiguration({
   defaults: {
     VTextField: {
-      variant: "underlined",
+      variant: "outlined",
     },
     VSelect: {
-      variant: "underlined",
+      variant: "outlined",
     },
-  },
-  theme: {
-    defaultTheme: "light",
-    themes: {
-      light: {
-        colors: {
-          primary: "#1976D2",
-          secondary: "#03A9F4",
-          surface: "#FFFFFF",
-          background: "#FAFAFA",
-        },
-      },
+    VNumberInput: {
+      variant: "outlined",
+      inset: "stacked",
+    },
+    VCard: {
+      class: "rounded-lg",
+    },
+    VBtn: {
+      class: "rounded-lg",
+    },
+    VCardActions: {
+      class: "pa-4",
     },
   },
 });

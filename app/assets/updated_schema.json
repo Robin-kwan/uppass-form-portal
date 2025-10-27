@@ -1,0 +1,59 @@
+{
+  "name": "updated_schema",
+  "label": "Leave form",
+  "endpoint": "sample_endpoint",
+  "items": {
+    "full_name": {
+      "name": "full_name",
+      "display": {
+        "label": "Full name",
+        "placeholder": "Your name here",
+        "hint": "Your name your name"
+      },
+      "required": true,
+      "rules": {},
+      "type": "Text"
+    },
+    "duration": {
+      "name": "duration",
+      "display": {
+        "label": "Duration",
+        "placeholder": "Select your leave duration",
+        "hint": "Full day or half day"
+      },
+      "required": true,
+      "rules": {},
+      "type": "Radio",
+      "enum": [
+        {
+          "label": "Full day",
+          "value": "full"
+        },
+        {
+          "label": "Half day",
+          "value": "half"
+        }
+      ]
+    },
+    "days": {
+      "name": "days",
+      "display": {
+        "label": "Day amount",
+        "placeholder": "How many days ",
+        "hint": "If 2 and a half day. Put 2.5"
+      },
+      "required": true,
+      "rules": {},
+      "type": "Number",
+      "value_constraints": {
+        "minimum": 1,
+        "allow_decimal": 1,
+        "allow_negative": false
+      },
+      "visible": {
+        "field": "duration",
+        "equals": "full"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "step",
+  "label": "Leave Request",
+  "items": {
+    "full_name": {
+      "name": "full_name",
+      "display": { "label": "Full Name" },
+      "required": true,
+      "rules": { "maxlength": 280 },
+      "type": "Text"
+    },
+    "duration": {
+      "name": "duration",
+      "display": { "label": "Duration" },
+      "required": true,
+      "enum": [
+        { "label": "Half Day", "value": "half" },
+        { "label": "Full Day", "value": "full" }
+      ],
+      "type": "Radio"
+    },
+    "days": {
+      "display": { "label": "Number of Days" },
+      "name": "days",
+      "prefill": { "value": 1 },
+      "value_constraints": { "maximum": 1000000, "allow_decimal": 0 },
+      "visible": { "field": "duration", "equals": "full" },
+      "required": true,
+      "type": "Number"
+    }
+  }
+}

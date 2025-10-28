@@ -35,9 +35,9 @@ Please refer to `app/assets/updated_schema.json`
 
 ## ⏱️ Time Spent
 - Planning: 1 hr
-- Functional Coding: 8 hr
-- Design & Styling: 3 hr
+- Functional Coding: 6 hr
+- Design & Styling: 2 hr
 - Deployment: 30 min
 - Documentation: 30 min
-- ``Total: ≈ 13 hours``
+- ``Total: ≈ 10 hours``
 
